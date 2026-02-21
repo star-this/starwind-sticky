@@ -1,0 +1,1 @@
+@layer starwind.layout{:where(sw-sticky){z-index:var(--sw-sticky-z,var(--sw-z-sticky,20));display:block;position:sticky;inset-block-start:var(--sw-sticky-top,0)}}

@@ -1,0 +1,8 @@
+@layer starwind.layout {
+    :where(sw-sticky) {
+        display: block;
+        position: sticky;
+        inset-block-start: var(--sw-sticky-top, 0);
+        z-index: var(--sw-sticky-z, var(--sw-z-sticky, 20));
+    }
+}
